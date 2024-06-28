@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(211, 128, 128);
+}
+header{
+background-color: rgb(202, 94, 112);
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#foto1{
+    display: block;
+    float: right;   
+    margin-right: -100px; 
+    width: 100%;
+}
+.header{
+    position: relative; 
+}
+.header img{
+    width: auto;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px; 
+}
+
+p{
+    margin-top: 0%;
+    color: rgb(0, 0, 0);
+}
+.titulo1{
+    border: 10px solid rgb(209, 48, 128); 
+    display: inline-block;
+    padding: 100;
+    width: 50%;
+}
